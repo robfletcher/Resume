@@ -1,67 +1,70 @@
-# Nathaniel Welch
+# Robert Fletcher
 
- * <nat@natwelch.com>
- * <http://natwelch.com>
- * 707-799-8675
+ * <rob@freeside.co>
+ * <http://freeside.co/>
+ * +44 (0)7967 754 939
 
-## Background
+## Overview
 
-I am a software developer with an interest in communication and design. I enjoy experimenting with new things to expand my knowledge and I believe that creating ways for people to share knowledge is one of the greatest goals for mankind. 
+I am an experienced professional web developer with a passion for quality software. I enjoy engaging with clients & users to deliver innovative, usable solutions. I'm skilled in both server-side and front-end technologies and experienced with agile practices such as test-driven and behaviour-driven development, pair programming & continuous integration.
 
-I strive to be a quick learner and both a competent leader and capable worker. I am an Eagle Scout and was an active officer of the Cal Poly Linux Users Group for three years. I was awarded Cal Poly's Residence Hall Council member of the year for both 2006 and 2007. In my free time I enjoy contributing to open source projects, hiking, reading and listening to music.
+I am constantly learning and extending my skills. I contribute to open-source projects, blog about software development and have spoken at several conferences internationally. In my free time I cycle, read and enjoy music.
 
-## Education
+## Skills
 
-Computer Science, B.S.  
-Fall 2006 - Spring 2011  
-California Polytechnic State University, San Luis Obispo  
+I have been writing code since my teenage years. For the last few years mostly using Groovy, Grails and JavaScript technologies including Coffeescript, but I have many years of experience with Java and some facility with Ruby, XSLT, C++ and even COBOL.
 
-## Proficiency
-
-I have been writing code, running servers and experimenting with new software since 2002. Most recently the majority of code I have written has been in Java, Ruby, Javascript and Bash, but I have experience in C, Python, SML/NJ, C++, SQL and F#.
+I know my way around Mac OS and Unix and have done support and administration work as part of cross-skilled teams.
 
 ## Experience
 
-### Google.com, San Francisco, CA
+### Sky Guide
+#### Developer - March 2011 to present
 
-#### Site Reliability Engineer - April 2012 to Present
+I work on an innovative TV guide website for the UK's leading subscription TV service. The site allows users to explore TV listings, record programmes & control their set-top box. The application is built using Grails and Backbone.js.
 
-I work as an SRE for Google Compute Engine and Google Cloud Storage.
+### iKentoo SA
+#### Developer - March 2012 to May 2012
 
-#### Software Engineer - August 2011 to Present 
+I redesigned & implemented the administrative interface for a startup developing a point-of-sale system for bars & restaurants.
 
-I continue to maintain Punchd, post-acquisition.
+### Energized Work, London UK
+#### Developer - July 2010 to October 2010
 
-### Punchd, Mountain View, CA
+I worked on the online product catalogue for a global entertainment brand.
 
-#### Software Developer - May 2011 to July 2012
+### Energized Work
+#### Developer - November 2008 to February 2009
 
-I was [Punchd](http://getpunchd.com)'s backend and operations engineer until we were acquired by Google in July 2011. Once at Google I continued to maintain Punchd's servers, backend API and web frontend. I also helped implement a version of Punchd built on Google's infrastructure, but it was never released.
+I was part of a team building _Commutineer_, a social networking startup themed around commuting. Built using Grails.
 
-### iFixit.com, San Luis Obispo CA
+### Sky Entertainment, London UK
+#### Developer - November 2007 to March 2011
 
-#### Software Developer - April 2009 to April 2011
+I worked on the platform for multiple websites for the UK's leading subscription TV service. The application was built using Grails with a single application serving multiple websites including _Sky Movies_, _Sky Showbiz_, _Sky TV_ and sites for individual channels.
 
-I wore a variety of hats including -- but not limited to -- writing code to promote high quality content and a stable community, helping keep servers afloat, and working with users to develop content. I wrote code mainly in PHP and Bash, and helped maintain our fleet of servers on Amazon's EC2 Service. 
+### AOL Europe, London UK
+#### Developer - 2005 to November 2007
 
- * Helped create a site-wide reputation community, which began with [iFixit.com/Answers](http://ifixit.com/Answers)
- * Helped maintain various servers, located on Amazon EC2, and local development machines
- * Developed the first JavaScript widget for iFixit's API.
- * Redefined iFixit's developer work flow
+I worked on the portals for AOL's presence in various European countries. The application was built with a Spring MVC & Hibernate based technology stack. Content was syndicated from various local services often with some 'interesting' approaches to delivering feeds.
 
-### Adobe Systems Incorporated, San Francisco CA
+### Logica, London UK
+#### Consultant - 1997 to 2005
 
-#### Dreamweaver Quality Engineering Intern - Summer 2007 and 2008
+I did various roles; analyst, engineer and technical architect on numerous projects for clients including Ford Motor Co., Britannia Building Society & the UK Financial Services Authority. I predominantly worked with Java but also on mainframe software with terminal emulator interfaces.
 
- * Tested both daily builds and released versions of Dreamweaver against various operating systems -- including Mac OSX 10.4, Mac OSX 10.5, Windows Vista, and Windows XP.
- * Helped maintain the Server Matrix, Bug-base, and test a new test case application
- * Helped develop and test the Web Widgets Feature for Dreamweaver CS4, which won the "Dreamweaver Community Feature of the Year" award in 2008.
+## Open Source Software
 
-### BSA Camp Oljato, Lakeshore CA
+I have my own open-source projects including _[Betamax](http://freeside.co/betamax)_, a tool for isolating automated tests from dependencies on external web services and several Grails plugins including _Fields_, _Joda-Time_, _Springcache_, _Spring Events_ & _Selenium RC_. I contribute to the core Grails project itself including redesigning and implementing the default look & feel of applications built with Grails 2. I also contribute to _[Geb](http://gebish.org/)_, a browser automation & end-to-end testing tool.
 
-#### Nature Director - Summer 2006
-#### Camp Counselor - Summer 2002, 2003 and 2004
+Most of my open-source work can be found via [my GitHub profile](https://github.com/robfletcher).
 
- * In charge of four staff members and responsible for planning the activities behind and maintaining the entire Nature area at camp, with an average of about 200 kids every week for seven weeks per summer.
- * Taught merit badge classes such as wilderness survival, camping, hiking, and others to children ages ten to eighteen.
+## Education
 
+MSc. Information Technology
+Graduated 1997
+Aston University, Birmingham UK
+
+MA (hons) English Literature
+Graduated 1995
+University of Aberdeen

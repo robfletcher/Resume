@@ -11,7 +11,7 @@ rescue LoadError
 end
 
 # Check all of the gems we need are there.
-[ "sinatra", "less", "yaml", "haml" ].each {|gem|
+[ "sinatra", "less", "github/markup", "yaml" ].each {|gem|
   begin
     require gem
   rescue LoadError
@@ -27,12 +27,16 @@ end
 
 # Render the main page.
 get '/index.html' do
+  rfile = settings.config['file']
   name  = settings.config['name']
   title = "#{name}'s Resume"
-  haml :index, :locals => {
+  resume = GitHub::Markup.render(rfile, File.read(rfile))
+  erb :index, :locals => {
     :title => title,
+    :resume => resume,
     :author => name,
     :key => settings.config['gkey'],
+    :filename => rfile
   }
 end
 
