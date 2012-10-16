@@ -8,7 +8,7 @@
 
 I am an experienced professional web developer with a passion for quality software. I enjoy engaging with clients & users to deliver innovative, usable solutions. I'm skilled in both server-side and front-end technologies and experienced with agile practices such as test-driven and behaviour-driven development, pair programming & continuous integration.
 
-I am constantly learning and extending my skills. I contribute to open-source projects, blog about software development and have spoken at several conferences internationally. In my free time I cycle, read and enjoy music.
+I am constantly learning and extending my skills. I contribute to open-source projects, blog about software development and have spoken at several conferences internationally. In my free time I cycle, read, mix cocktails and enjoy music.
 
 ## Skills
 
@@ -16,79 +16,54 @@ I have been writing code since my teenage years. For the last few years mostly u
 
 I know my way around Mac OS and Unix and have done support and administration work as part of cross-skilled teams.
 
+## Experience
+
+### Sky Guide
+#### Developer - March 2011 to present
+
+I work on an innovative TV guide website for the UK's leading subscription TV service. The site allows users to explore TV listings, record programmes & control their set-top box. The application is built using Grails and Backbone.js.
+
+### iKentoo SA
+#### Developer - March 2012 to May 2012
+
+I redesigned & implemented the administrative interface for a startup developing a point-of-sale system for bars & restaurants.
+
+### Energized Work
+#### Developer - July 2010 to October 2010
+
+I worked on the online product catalogue for a global entertainment brand.
+
+#### Developer - November 2008 to February 2009
+
+I was part of a team building _Commutineer_, a social networking startup themed around commuting. Built using Grails.
+
+### Sky Entertainment
+#### Developer - November 2007 to March 2011
+
+I worked on the platform for multiple websites for the UK's leading subscription TV service. The application was built using Grails with a single application serving multiple websites including _Sky Movies_, _Sky Showbiz_, _Sky TV_ and sites for individual channels.
+
+### AOL Europe
+#### Developer - 2005 to November 2007
+
+I worked on the portals for AOL's presence in various European countries. The application was built with a Spring MVC & Hibernate based technology stack. Content was syndicated from various local services often with some 'interesting' approaches to delivering feeds.
+
+### Logica
+#### Consultant - 1997 to 2005
+
+I did various roles; analyst, engineer and technical architect on numerous projects for clients including Ford Motor Co., Britannia Building Society & the UK Financial Services Authority. I predominantly worked with Java but also on mainframe software with terminal emulator interfaces.
+
+## Open Source Software
+
+I have my own open-source projects including _[Betamax](http://freeside.co/betamax)_, a tool for isolating automated tests from dependencies on external web services and several Grails plugins including _Fields_, _Joda-Time_, _Springcache_, _Spring Events_ & _Selenium RC_. I contribute to the core Grails project itself including redesigning and implementing the default look & feel of applications built with Grails 2. I also contribute to _[Geb](http://gebish.org/)_, a browser automation & end-to-end testing tool.
+
+Most of my open-source work can be found via [my GitHub profile](https://github.com/robfletcher).
+
 ## Education
 
-Computer Science, B.S.
-Fall 2006 - Spring 2011
-California Polytechnic State University, San Luis Obispo
+MSc. Information Technology
+Graduated 1997
+Aston University, Birmingham UK
 
-## Proficiency
-
-I have been writing code, running servers and experimenting with new software since 2002. Most recently the majority of code I have written has been in Java, Ruby, Javascript and Bash, but I have experience in C, Python, SML/NJ, C++, SQL and F#.
-
-        ## Experience
-
-              ### Sky Guide
-              %h4
-                %span.title Developer
-                %time{:class => "from", :datetime => "2011-03"} March 2011
-                to present
-
-            :markdown
-              I work on an innovative TV guide website for the UK's leading subscription TV service. The site allows users to explore TV listings, record programmes & control their set-top box. The application is built using Grails and Backbone.js.
-
-          %li
-            %hgroup
-              %h3 iKentoo SA
-              %h4
-                %span.title Developer
-                %time{:class => "from", :datetime => "2012-03"} March 2012
-                to
-                %time{:class => "to", :datetime => "2012-05"} May 2012
-            :markdown
-              I redesigned & implemented the administrative interface for a startup developing a point-of-sale system for bars & restaurants.
-
-          %li
-            :markdown
-              ### Energized Work, London UK
-
-              #### Developer - July 2010 to October 2010
-
-              I worked on the online product catalogue for a global entertainment brand.
-
-          %li
-            %hgroup
-              %h3 Energized Work
-              %h4
-                %span.title Developer
-                %time{:class => "from", :datetime => "2008-11"} November 2008
-                to
-                %time{:class => "to", :datetime => "2009-02"} February 2009
-
-            :markdown
-              I was part of a team building _Commutineer_, a social networking startup themed around commuting. Built using Grails.
-
-          %li
-            :markdown
-              ### Sky Entertainment, London UK
-
-              #### Developer - November 2007 to March 2011
-
-              I worked on the platform for multiple websites for the UK's leading subscription TV service. The application was built using Grails with a single application serving multiple websites including _Sky Movies_, _Sky Showbiz_, _Sky TV_ and sites for individual channels.
-
-          %li
-            :markdown
-              ### AOL Europe, London UK
-
-              #### Developer - 2005 to November 2007
-
-              I worked on the portals for AOL's presence in various European countries. The application was built with a Spring MVC & Hibernate based technology stack. Content was syndicated from various local services often with some 'interesting' approaches to delivering feeds.
-
-          %li
-            :markdown
-              ### Logica, London UK
-
-              #### Consultant - 1997 to 2005
-
-              I did various roles; analyst, engineer and technical architect on numerous projects for clients including Ford Motor Co., Britannia Building Society & the UK Financial Services Authority. I predominantly worked with Java but also on mainframe software with terminal emulator interfaces.
-
+MA (hons) English Literature
+Graduated 1995
+University of Aberdeen

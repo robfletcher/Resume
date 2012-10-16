@@ -8,6 +8,9 @@
 @link:   #4183C4;
 @border: #E0E0E0;
 
+@bodyFont: Merriweather, serif;
+@headingFont: Lato, sans-serif;
+
 * {
   margin: 0;
   padding: 0;
@@ -17,8 +20,9 @@ body {
   color: @fg;
   line-height: 1.4em;
   background-color: @bg;
-  font-family: serif;
+  font-family: @bodyFont;
   font-size: 0.9em;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
 }
 
 /**
@@ -48,6 +52,10 @@ body {
 
   h1, h2, h3, h4, h5, h6 {
     border: 0;
+  }
+
+  h1, h2 {
+    font-family: @headingFont;
   }
 
   h1 {

@@ -1,187 +1,113 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <title>Robert Fletcher's Resume</title>
-    <meta content='Robert Fletcher' name='author' />
-    <meta charset='utf-8' />
-    <link href='favicon.ico' rel='shortcut icon' />
-    <link href='normalize.css' rel='stylesheet' />
-    <link href='print.less' media='print' rel='stylesheet/less' type='text/css' />
-    <link href='style.less' media='screen' rel='stylesheet/less' type='text/css' />
-    <script src='less-1.3.0.min.js'></script>
-    <script src='jquery-1.8.0.min.js'></script>
-    <script type='text/javascript'>
-      //<![CDATA[
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', '<%= key %>']);
-        _gaq.push(['_trackPageview']);
-        
-        (function() {
-          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-      //]]>
+    <meta name="author" content="Robert Fletcher">
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link href="http://fonts.googleapis.com/css?family=Lato:700|Merriweather:400,700" rel="stylesheet" type="text/css">
+
+    <!-- http://lesscss.org/ -->
+    <link href="print.less" media="print" rel="stylesheet/less" type="text/css" />
+    <link href="style.less" media="screen" rel="stylesheet/less" type="text/css" />
+    <script src="less-1.3.0.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-27275689-3']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
     </script>
   </head>
   <body>
-    <div id='resume'>
-      <header>
-        <h1>Robert Fletcher</h1>
-        <address class='vcard'>
-          <ul>
-          <li><a href="&#x6d;&#x61;&#105;&#108;&#x74;&#111;&#58;&#x72;&#x6f;&#98;&#64;&#102;&#x72;&#x65;&#101;&#115;&#x69;&#100;&#101;&#x2e;&#x63;&#x6f;">&#x72;&#x6f;&#98;&#64;&#102;&#114;&#101;&#x65;&#x73;&#105;&#100;&#x65;&#46;&#x63;&#x6f;</a></li>
-          <li><a href="http://freeside.co/">http://freeside.co/</a></li>
-          <li>+44 (0)7967 754 939</li>
-          </ul>
-        </address>
-      </header>
-      <section id='overview'>
-        <h2>Overview</h2>
-        
-        <p>I am an experienced professional web developer with a passion for quality software. I enjoy engaging with clients &amp; users to deliver innovative, usable solutions. I'm skilled in both server-side and front-end technologies and experienced with agile practices such as test-driven and behaviour-driven development, pair programming &amp; continuous integration.</p>
-        
-        <p>I am constantly learning and extending my skills. I contribute to open-source projects, blog about software development and have spoken at several conferences internationally. In my free time I cycle, read and enjoy music.</p>
-      </section>
-      <section id='skills'>
-        <h2>Skills</h2>
-        
-        <p>I have been writing code since my teenage years. For the last few years mostly using Groovy, Grails and JavaScript technologies including Coffeescript, but I have many years of experience with Java and some facility with Ruby, XSLT, C++ and even COBOL.</p>
-        
-        <p>I know my way around Mac OS and Unix and have done support and administration work as part of cross-skilled teams.</p>
-      </section>
-      <section id='experience'>
-        <h2>Experience</h2>
-        <ol class='jobs'>
-          <li>
-            <hgroup>
-              <h3>Sky Guide</h3>
-              <h4>
-                <span class='title'>Developer</span>
-                <time class='from' datetime='2011-03'>March 2011</time>
-                to present
-              </h4>
-            </hgroup>
-            <p>I work on an innovative TV guide website for the UK's leading subscription TV service. The site allows users to explore TV listings, record programmes &amp; control their set-top box. The application is built using Grails and Backbone.js.</p>
-          </li>
-          <li>
-            <hgroup>
-              <h3>iKentoo SA</h3>
-              <h4>
-                <span class='title'>Developer</span>
-                <time class='from' datetime='2012-03'>March 2012</time>
-                to
-                <time class='to' datetime='2012-05'>May 2012</time>
-              </h4>
-            </hgroup>
-            <p>I redesigned &amp; implemented the administrative interface for a startup developing a point-of-sale system for bars &amp; restaurants.</p>
-          </li>
-          <li>
-            <h3>Energized Work, London UK</h3>
-            
-            <h4>Developer - July 2010 to October 2010</h4>
-            
-            <p>I worked on the online product catalogue for a global entertainment brand.</p>
-          </li>
-          <li>
-            <hgroup>
-              <h3>Energized Work</h3>
-              <h4>
-                <span class='title'>Developer</span>
-                <time class='from' datetime='2008-11'>November 2008</time>
-                to
-                <time class='to' datetime='2009-02'>February 2009</time>
-              </h4>
-            </hgroup>
-            <p>I was part of a team building <em>Commutineer</em>, a social networking startup themed around commuting. Built using Grails.</p>
-          </li>
-          <li>
-            <h3>Sky Entertainment, London UK</h3>
-            
-            <h4>Developer - November 2007 to March 2011</h4>
-            
-            <p>I worked on the platform for multiple websites for the UK's leading subscription TV service. The application was built using Grails with a single application serving multiple websites including <em>Sky Movies</em>, <em>Sky Showbiz</em>, <em>Sky TV</em> and sites for individual channels.</p>
-          </li>
-          <li>
-            <h3>AOL Europe, London UK</h3>
-            
-            <h4>Developer - 2005 to November 2007</h4>
-            
-            <p>I worked on the portals for AOL's presence in various European countries. The application was built with a Spring MVC &amp; Hibernate based technology stack. Content was syndicated from various local services often with some 'interesting' approaches to delivering feeds.</p>
-          </li>
-          <li>
-            <h3>Logica, London UK</h3>
-            
-            <h4>Consultant - 1997 to 2005</h4>
-            
-            <p>I did various roles; analyst, engineer and technical architect on numerous projects for clients including Ford Motor Co., Britannia Building Society &amp; the UK Financial Services Authority. I predominantly worked with Java but also on mainframe software with terminal emulator interfaces.</p>
-          </li>
-        </ol>
-      </section>
-      <section id='speaking'>
-        <h2>Conference Speaking</h2>
-        
-        <p>In addition to various free talks at user groups I have been invited to speak at the following professional conferences:</p>
-        <ul class='conferences'>
-          <li>
-            <h3><a href="http://gr8conf.us/">gr8conf US 2012</a> Minneapolis, MN</h3>
-            
-            <ul>
-            <li><em>Future-proof scaffolding with the Grails Fields plugin</em></li>
-            <li><em>Betamax</em></li>
-            </ul>
-          </li>
-          <li>
-            <h3><a href="http://gr8conf.eu/">gr8conf EU 2012</a> Copenhagen, Denmark</h3>
-            
-            <ul>
-            <li><em>Groovier testing with Spock</em></li>
-            <li><em>Betamax</em></li>
-            </ul>
-          </li>
-          <li>
-            <h3><a href="http://skillsmatter.com/event/java-jee/groovy-grails-exchange-2011">Groovy &amp; Grails Exchange 2011</a> London, UK</h3>
-            
-            <ul>
-            <li><em>Betamax</em></li>
-            </ul>
-          </li>
-          <li>
-            <h3><a href="http://gr8conf.eu/">gr8conf EU 2011</a> Copenhagen, Denmark</h3>
-            
-            <ul>
-            <li><em>Building progressive user interfaces with Grails</em></li>
-            </ul>
-          </li>
-        </ul>
-      </section>
-      <section id='open-source'>
-        <h2>Open Source Software</h2>
-        
-        <p>I have my own open-source projects including <em><a href="http://freeside.co/betamax">Betamax</a></em>, a tool for isolating automated tests from dependencies on external web services and several Grails plugins including <em>Fields</em>, <em>Joda-Time</em>, <em>Springcache</em>, <em>Spring Events</em> &amp; <em>Selenium RC</em>. I contribute to the core Grails project itself including redesigning and implementing the default look &amp; feel of applications built with Grails 2. I also contribute to <em><a href="http://gebish.org/">Geb</a></em>, a browser automation &amp; end-to-end testing tool.</p>
-        
-        <p>Most of my open-source work can be found via <a href="https://github.com/robfletcher">my GitHub profile</a>.</p>
-      </section>
-      <section id='education'>
-        <h2>Education</h2>
-        <ol>
-          <li>
-            MSc. Information Technology
-            Graduated 1997
-            Aston University, Birmingham UK
-          </li>
-          <li>
-            MA (hons) English Literature
-            Graduated 1995
-            University of Aberdeen
-          </li>
-        </ol>
-      </section>
+    <div id="resume">
+      <h1>Robert Fletcher</h1>
+
+<ul>
+<li><a href="&#x6d;&#x61;&#105;&#108;&#x74;&#x6f;&#x3a;&#x72;&#111;&#98;&#x40;&#102;&#x72;&#x65;&#x65;&#x73;&#105;&#x64;&#x65;&#46;&#99;&#111;">&#x72;&#x6f;&#98;&#x40;&#x66;&#x72;&#x65;&#101;&#115;&#105;&#x64;&#101;&#46;&#99;&#x6f;</a></li>
+<li><a href="http://freeside.co/">http://freeside.co/</a></li>
+<li>+44 (0)7967 754 939</li>
+</ul>
+
+
+<h2>Overview</h2>
+
+<p>I am an experienced professional web developer with a passion for quality software. I enjoy engaging with clients &amp; users to deliver innovative, usable solutions. I'm skilled in both server-side and front-end technologies and experienced with agile practices such as test-driven and behaviour-driven development, pair programming &amp; continuous integration.</p>
+
+<p>I am constantly learning and extending my skills. I contribute to open-source projects, blog about software development and have spoken at several conferences internationally. In my free time I cycle, read, mix cocktails and enjoy music.</p>
+
+<h2>Skills</h2>
+
+<p>I have been writing code since my teenage years. For the last few years mostly using Groovy, Grails and JavaScript technologies including Coffeescript, but I have many years of experience with Java and some facility with Ruby, XSLT, C++ and even COBOL.</p>
+
+<p>I know my way around Mac OS and Unix and have done support and administration work as part of cross-skilled teams.</p>
+
+<h2>Experience</h2>
+
+<h3>Sky Guide</h3>
+
+<h4>Developer - March 2011 to present</h4>
+
+<p>I work on an innovative TV guide website for the UK's leading subscription TV service. The site allows users to explore TV listings, record programmes &amp; control their set-top box. The application is built using Grails and Backbone.js.</p>
+
+<h3>iKentoo SA</h3>
+
+<h4>Developer - March 2012 to May 2012</h4>
+
+<p>I redesigned &amp; implemented the administrative interface for a startup developing a point-of-sale system for bars &amp; restaurants.</p>
+
+<h3>Energized Work</h3>
+
+<h4>Developer - July 2010 to October 2010</h4>
+
+<p>I worked on the online product catalogue for a global entertainment brand.</p>
+
+<h4>Developer - November 2008 to February 2009</h4>
+
+<p>I was part of a team building <em>Commutineer</em>, a social networking startup themed around commuting. Built using Grails.</p>
+
+<h3>Sky Entertainment</h3>
+
+<h4>Developer - November 2007 to March 2011</h4>
+
+<p>I worked on the platform for multiple websites for the UK's leading subscription TV service. The application was built using Grails with a single application serving multiple websites including <em>Sky Movies</em>, <em>Sky Showbiz</em>, <em>Sky TV</em> and sites for individual channels.</p>
+
+<h3>AOL Europe</h3>
+
+<h4>Developer - 2005 to November 2007</h4>
+
+<p>I worked on the portals for AOL's presence in various European countries. The application was built with a Spring MVC &amp; Hibernate based technology stack. Content was syndicated from various local services often with some 'interesting' approaches to delivering feeds.</p>
+
+<h3>Logica</h3>
+
+<h4>Consultant - 1997 to 2005</h4>
+
+<p>I did various roles; analyst, engineer and technical architect on numerous projects for clients including Ford Motor Co., Britannia Building Society &amp; the UK Financial Services Authority. I predominantly worked with Java but also on mainframe software with terminal emulator interfaces.</p>
+
+<h2>Open Source Software</h2>
+
+<p>I have my own open-source projects including <em><a href="http://freeside.co/betamax">Betamax</a></em>, a tool for isolating automated tests from dependencies on external web services and several Grails plugins including <em>Fields</em>, <em>Joda-Time</em>, <em>Springcache</em>, <em>Spring Events</em> &amp; <em>Selenium RC</em>. I contribute to the core Grails project itself including redesigning and implementing the default look &amp; feel of applications built with Grails 2. I also contribute to <em><a href="http://gebish.org/">Geb</a></em>, a browser automation &amp; end-to-end testing tool.</p>
+
+<p>Most of my open-source work can be found via <a href="https://github.com/robfletcher">my GitHub profile</a>.</p>
+
+<h2>Education</h2>
+
+<p>MSc. Information Technology
+Graduated 1997
+Aston University, Birmingham UK</p>
+
+<p>MA (hons) English Literature
+Graduated 1995
+University of Aberdeen</p>
+
+
+      <small class="download">Download as <a href="resume.txt">plain text</a>.</small>
     </div>
-    <footer>
-      <small class='download'>
-        <p>Download as <a href="resume.txt">plain text</a>.</p>
-      </small>
-    </footer>
   </body>
 </html>
