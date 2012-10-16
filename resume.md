@@ -28,27 +28,26 @@ I work on an innovative TV guide website for the UK's leading subscription TV se
 
 I redesigned & implemented the administrative interface for a startup developing a point-of-sale system for bars & restaurants.
 
-### Energized Work, London UK
+### Energized Work
 #### Developer - July 2010 to October 2010
 
 I worked on the online product catalogue for a global entertainment brand.
 
-### Energized Work
 #### Developer - November 2008 to February 2009
 
 I was part of a team building _Commutineer_, a social networking startup themed around commuting. Built using Grails.
 
-### Sky Entertainment, London UK
+### Sky Entertainment
 #### Developer - November 2007 to March 2011
 
 I worked on the platform for multiple websites for the UK's leading subscription TV service. The application was built using Grails with a single application serving multiple websites including _Sky Movies_, _Sky Showbiz_, _Sky TV_ and sites for individual channels.
 
-### AOL Europe, London UK
+### AOL Europe
 #### Developer - 2005 to November 2007
 
 I worked on the portals for AOL's presence in various European countries. The application was built with a Spring MVC & Hibernate based technology stack. Content was syndicated from various local services often with some 'interesting' approaches to delivering feeds.
 
-### Logica, London UK
+### Logica
 #### Consultant - 1997 to 2005
 
 I did various roles; analyst, engineer and technical architect on numerous projects for clients including Ford Motor Co., Britannia Building Society & the UK Financial Services Authority. I predominantly worked with Java but also on mainframe software with terminal emulator interfaces.
