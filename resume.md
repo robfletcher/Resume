@@ -8,7 +8,7 @@
 
 I am an experienced professional web developer with a passion for quality software. I enjoy engaging with clients & users to deliver innovative, usable solutions. I'm skilled in both server-side and front-end technologies and experienced with agile practices such as test-driven and behaviour-driven development, pair programming & continuous integration.
 
-I am constantly learning and extending my skills. I contribute to open-source projects, blog about software development and have spoken at several conferences internationally. In my free time I cycle, read and enjoy music.
+I am constantly learning and extending my skills. I contribute to open-source projects, blog about software development and have spoken at several conferences internationally. In my free time I cycle, read, mix cocktails and enjoy music.
 
 ## Skills
 
