@@ -1,0 +1,178 @@
+!!! 5
+%html
+  %head
+    %title= title
+    %meta{:name => "author", :content => author}
+    %meta{:charset => "utf-8"}
+    %link{:rel => "shortcut icon", :href => "favicon.ico"}
+
+    %link{:href => 'normalize.css', :rel => 'stylesheet'}
+
+    %link{:href => "print.less", :media => "print", :rel => "stylesheet/less", :type => "text/css"}
+    %link{:href => "style.less", :media => "screen", :rel => "stylesheet/less", :type => "text/css"}
+    %script{:src => "less-1.3.0.min.js"}
+
+    :javascript
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', '<%= key %>']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+  %body
+    #resume
+
+      %header
+        %h1= author
+        %address.vcard
+          :markdown
+            * <rob@freeside.co>
+            * <http://freeside.co/>
+            * +44 (0)7967 754 939
+
+      %section#overview
+        :markdown
+          ## Overview
+
+          I am an experienced professional web developer with a passion for quality software. I enjoy engaging with clients & users to deliver innovative, usable solutions. I'm skilled in both server-side and front-end technologies and experienced with agile practices such as test-driven and behaviour-driven development, pair programming & continuous integration.
+
+          I am constantly learning and extending my skills. I contribute to open-source projects, blog about software development and have spoken at several conferences internationally. In my free time I cycle, read, mix cocktails and enjoy music.
+
+      %section#skills
+        :markdown
+          ## Skills
+
+          I have been writing code since my teenage years. For the last few years mostly using Groovy, Grails and JavaScript technologies including Coffeescript, but I have many years of experience with Java and some facility with Ruby, XSLT, C++ and even COBOL.
+
+          I know my way around Mac OS and Unix and have done support and administration work as part of cross-skilled teams.
+
+      %section#experience
+        %h2 Experience
+
+        %ol.jobs
+          %li
+            %hgroup
+              %h3 Sky Guide
+              %h4
+                %span.title Developer
+                %time{:class => "from", :datetime => "2011-03"} March 2011
+                to present
+
+            :markdown
+              I work on an innovative TV guide website for the UK's leading subscription TV service. The site allows users to explore TV listings, record programmes & control their set-top box. The application is built using Grails and Backbone.js.
+
+          %li
+            %hgroup
+              %h3 iKentoo SA
+              %h4
+                %span.title Developer
+                %time{:class => "from", :datetime => "2012-03"} March 2012
+                to
+                %time{:class => "to", :datetime => "2012-05"} May 2012
+            :markdown
+              I redesigned & implemented the administrative interface for a startup developing a point-of-sale system for bars & restaurants.
+
+          %li
+            %hgroup
+              %h3 Energized Work
+              %h4
+                %span.title Developer
+                %time{:class => "from", :datetime => "2010-07"} July 2010
+                to
+                %time{:class => "to", :datetime => "2010-10"} October 2010
+            :markdown
+              I worked on the online product catalogue for a global entertainment brand.
+
+          %li
+            %hgroup
+              %h3 Energized Work
+              %h4
+                %span.title Developer
+                %time{:class => "from", :datetime => "2008-11"} November 2008
+                to
+                %time{:class => "to", :datetime => "2009-02"} February 2009
+            :markdown
+              I was part of a team building _Commutineer_, a social networking startup themed around commuting. Built using Grails.
+
+          %li
+            :markdown
+              ### Sky Entertainment, London UK
+
+              #### Developer - November 2007 to March 2011
+
+              I worked on the platform for multiple websites for the UK's leading subscription TV service. The application was built using Grails with a single application serving multiple websites including _Sky Movies_, _Sky Showbiz_, _Sky TV_ and sites for individual channels.
+
+          %li
+            :markdown
+              ### AOL Europe, London UK
+
+              #### Developer - 2005 to November 2007
+
+              I worked on the portals for AOL's presence in various European countries. The application was built with a Spring MVC & Hibernate based technology stack. Content was syndicated from various local services often with some 'interesting' approaches to delivering feeds.
+
+          %li
+            :markdown
+              ### Logica, London UK
+
+              #### Consultant - 1997 to 2005
+
+              I did various roles; analyst, engineer and technical architect on numerous projects for clients including Ford Motor Co., Britannia Building Society & the UK Financial Services Authority. I predominantly worked with Java but also on mainframe software with terminal emulator interfaces.
+
+      %section#speaking
+        :markdown
+          ## Conference Speaking
+
+          In addition to various free talks at user groups I have been invited to speak at the following professional conferences:
+
+        %ul.conferences
+          %li
+            :markdown
+              ### [gr8conf US 2012](http://gr8conf.us/) Minneapolis, MN
+              * _Future-proof scaffolding with the Grails Fields plugin_
+              * _Betamax_
+
+          %li
+            :markdown
+              ### [gr8conf EU 2012](http://gr8conf.eu/) Copenhagen, Denmark
+              * _Groovier testing with Spock_
+              * _Betamax_
+
+          %li
+            :markdown
+              ### [Groovy & Grails Exchange 2011](http://skillsmatter.com/event/java-jee/groovy-grails-exchange-2011) London, UK
+              * _Betamax_
+
+          %li
+            :markdown
+              ### [gr8conf EU 2011](http://gr8conf.eu/) Copenhagen, Denmark
+              * _Building progressive user interfaces with Grails_
+
+      %section#open-source
+        :markdown
+          ## Open Source Software
+
+          I have my own open-source projects including _[Betamax](http://freeside.co/betamax)_, a tool for isolating automated tests from dependencies on external web services and several Grails plugins including _Fields_, _Joda-Time_, _Springcache_, _Spring Events_ & _Selenium RC_. I contribute to the core Grails project itself including redesigning and implementing the default look & feel of applications built with Grails 2. I also contribute to _[Geb](http://gebish.org/)_, a browser automation & end-to-end testing tool.
+
+          Most of my open-source work can be found via [my GitHub profile](https://github.com/robfletcher).
+
+      %section#education
+        %h2 Education
+
+        %ol
+          %li
+            MSc. Information Technology
+            Graduated 1997
+            Aston University, Birmingham UK
+
+          %li
+            MA (hons) English Literature
+            Graduated 1995
+            University of Aberdeen
+
+    %footer
+      %small.download
+        :markdown
+          Download as [plain text](resume.txt).
